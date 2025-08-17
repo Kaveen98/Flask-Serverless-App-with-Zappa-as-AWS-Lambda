@@ -77,6 +77,8 @@ zappa update zappa_deploy_dev
 zappa undeploy zappa_deploy_dev
 ```
 
+---
+
 ## 🌐 Accessing the App
 
 - Once deployed, Zappa will provide an API Gateway URL.
