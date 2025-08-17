@@ -52,27 +52,27 @@ Key values:
 
 ## 🛠️ Setup & Deployment
 
-1. Install dependencies
+#### 1. Install dependencies
 ```
 pip install flask zappa
 ```
 
-2. Initialize Zappa (if not already)
+#### 2. Initialize Zappa (if not already)
 ```
 zappa init
 ```
 
-3. Deploy the app
+#### 3. Deploy the app
 ```
 zappa deploy zappa_deploy_dev
 ```
 
-4. Update after changes
+#### 4. Update after changes
 ```
 zappa update zappa_deploy_dev
 ```
 
-5. Remove deployment (optional)
+#### 5. Remove deployment (optional)
 ```
 zappa undeploy zappa_deploy_dev
 ```
